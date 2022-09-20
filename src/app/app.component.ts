@@ -7,4 +7,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Estudo_Angular';
+  emailusuario:string = "emailexemplo@gmail.com";
+  telefone:string = "00 0000-00000"
 }
