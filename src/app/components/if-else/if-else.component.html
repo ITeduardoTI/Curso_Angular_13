@@ -1,0 +1,8 @@
+<div class="class">
+    <div class="main-container hcentered text-bold-content">
+        <p *ngIf="name === 'Eduardo'; else nameNotFound">Seu nome é <span class="text-info"> {{name}}</span></p>
+        <ng-template #nameNotFound>
+            <p>Seu nome <span class="text-info"> não foi encontrado</span></p>
+        </ng-template>
+    </div>
+</div>

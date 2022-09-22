@@ -7,14 +7,12 @@
     margin: 30px;
     flex-wrap: wrap;
 }
-
 .main-grid {
     display: grid;
     grid-template-columns: auto auto auto;
     column-gap: 50px;
     row-gap: 15px;
 }
-
 .main-container-big-font {
     display: flex;
     flex-direction: row;
@@ -26,17 +24,9 @@
     margin-top: 20px;
     flex-wrap: wrap;
 }
-
-
 .text-info {
     color: #0099ff
 }
-
-.text-bold-content {
-    font-size: 40px;
-    font-weight: 700;
-}
-
 .text-bold-content {
     display: flex;
     font-size: 40px;
@@ -44,28 +34,27 @@
     margin-top: 30px;
     justify-content: center;
 }
-
 .hcentered {
     display: flex;
     justify-content: center;
 }
-
 .vcentered {
     display: flex;
     align-items: center;
 }
-
 .mtop10 {
     margin-top: 10px;
 }
-
 .mtop50 {
     margin-top: 50px;
 }
-
 .text-content {
     font-size: 30px;
     font-weight: 700;
+}
+.class {
+    padding-bottom: 50px;
+    border-bottom: #0099ff solid;
 }
 
 * {
